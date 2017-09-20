@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>量表条目信息</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/checkPw.js"></script>
+</head>
+<body style="background:#E3F5FC;">
+	<div class="container-fluid">
+		<br/><br/><br/><center><h1 class="text-info">&nbsp;增加已有的量表信息(五)</h1>
+		<h3 class="text-info">添加量表条目</h3>
+		<form action="__SELF__" method="post" class="form-horizontal">
+		  <table>
+		  		<tr><td><label class="text-primary">隶属小模块:</label></td><td><select name="s_module">{tt}
+		  		<foreach name="res" item="v"><option value="{$v.s_id}">{$v.s_title}</option></foreach></select></td></tr>
+				<tr><td><label class="text-primary">量表条目: &nbsp;&nbsp;</label></td><td><input type="text" name="items" class="form-control" placeholder="条目值/参考年龄"></td>
+				<td><span style="color:red; font-size:0.65em;">&nbsp;&nbsp;&nbsp;条目值/参考年龄,例如：灵活追视/4-6月</span></td></tr>
+		</table><br/>
+		<input type="button" class=" btn btn-info" onclick="add();" value="添加更多的量表条目" />
+		<div id="org"></div><br/>
+		<a href="__CONTROLLER__/s_module">上一步</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input name="submit" type="submit" value="保存提交" class="btn btn-info btn-lg " ></form></center>
+	</div>
+	
+</body>
+</html>

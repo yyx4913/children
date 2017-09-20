@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>增加量表</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/checkPw.js"></script>
+</head>
+<body style="background:#E3F5FC;">
+	<div class="container">
+		<br/><br/><br/><center><h1 class="text-info">&nbsp;添加量表信息</h1>
+		<form action="__SELF__" method="post" class="form-horizontal">
+		  <table>
+		  		<tr><td><label class="text-primary">量表名称：</label></td><td><input type="text" class="form-control" name="kind_name" placeholder="请输入量表名称" ></td></tr>
+		  		<tr><td><label class="text-primary">量表条目：</label></td><td><input type="text" class="form-control" name="item_name" placeholder="请输入量表条目名称"></td>
+		  		<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class=" btn btn-info" onclick="add();" value="添加更多条目" /></td></tr>	
+		</table>
+				<div id="org"></div><br/>
+				<input name="submit" type="submit" value="确认提交" class="btn btn-info btn-lg " >
+		</form></center>
+	</div>	
+</body>
+</html>

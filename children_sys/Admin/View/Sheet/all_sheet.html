@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>评估结果分析表</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+<style>
+
+table tr td label{width:100%; text-align:center;}
+</style>
+</head>
+<body style="background:#F0F2F5;">
+	<div class="container-fluid ">
+		<div class="main" style="border:none;">
+			<center><h1 class="text-info">自闭症儿童评估结果分析表</h1></center>
+			<div style="font-size:1.5em;line-height:2em;">
+				　　　　　儿童姓名：{$info['stu_name']}　　　　　　　　性别：{$info['sex']}　　　　　
+				　　出生日期：{$info['brith']}<br/>
+				　　　　　教育诊断人：{$er}　　　　　　　　教育诊断时期:　{$time}
+			</div><br/><br/>
+			<table border="1" width="100%" style="margin-top:-2.2em; ">
+				<tr><th width="10%"><label>领域</label></th>
+					<th width="30%"><label>能力现状分析</label></th>
+					<th width="30%"><label>优弱势分析</label></th>
+					<th width="30%"><label>训练目标</label></th>
+				</tr>
+				<tr><td><label>感知觉</label></td>
+					<td>
+						视觉：{$power[0][0]}<br/>
+						听觉：{$power[0][1]}<br/>
+						触觉：{$power[0][2]}<br/>
+						味觉：{$power[0][3]}<br/>触觉:{$power[0][4]}
+					</td>
+					<td>
+						优势：{$status[0][0]}<br/>
+						劣势：{$status[0][1]}
+					</td>
+					<td>{$aim[0]}</td>
+				</tr>
+				<tr><td><label>粗大动作</label></td>
+					<td>
+						操作活动：{$power[1][0]}<br/>
+					</td>
+					<td>
+						优势：{$status[1][0]}<br/>
+						劣势：{$status[1][1]}
+					</td>
+					<td>{$aim[1]}</td>
+				</tr>
+				<tr><td><label>精细动作</label></td>
+					<td>
+						基本操作能力：{$power[2][0]}<br/>
+						手眼协调：{$power[2][1]}<br/>
+						握笔写画：{$power[2][2]}
+					</td>
+					<td>
+						优势：{$status[0][0]}<br/>
+						劣势：{$status[0][1]}
+					</td>
+					<td>{$aim[2]}</td>
+				</tr>
+				<tr><td><label>语言与沟通</label></td>
+					<td>
+						语言模仿：{$power[3][0]}<br/>
+						语言理解：{$power[3][1]}<br/>
+						语言表达：{$power[3][2]}
+					</td>
+					<td>
+						优势：{$status[3][0]}<br/>
+						劣势：{$status[3][1]}
+					</td>
+					<td>{$aim[3]}</td>
+				</tr>
+				<tr><td><label>认知</label></td>
+					<td>
+						经验与表征：{$power[4][0]}<br/>
+						因果关系和概念形成：{$power[4][1]}
+					</td>
+					<td>
+						优势：{$status[4][0]}<br/>
+						劣势：{$status[4][1]}
+					</td>
+					<td>{$aim[4]}</td>
+				</tr>
+				<tr><td><label>社会交往</label></td>
+					<td>
+						社交前基本能力：{$power[4][0]}<br/>
+						社交技巧：{$power[4][1]}
+					</td>
+					<td>
+						优势：{$status[4][0]}<br/>
+						劣势：{$status[4][1]}
+					</td>
+					<td>{$aim[4]}</td>
+				</tr>
+				<tr><td><label>生活自理</label></td>
+					<td>
+						进食：{$power[5][0]}<br/>
+						穿衣：{$power[5][1]}<br/>
+						梳洗：{$power[5][2]}<br/>
+						如厕：{$power[5][3]}
+					</td>
+					<td>
+						优势：{$status[5][0]}<br/>
+						劣势：{$status[5][1]}
+					</td>
+					<td>{$aim[5]}</td>
+				</tr>
+				<tr><td><label>情绪与行为</label></td>
+					<td>
+						情绪表达与调节：{$power[6][0]}<br/>
+						特殊行为：{$power[6][1]}
+					</td>
+					<td>
+						优势：{$status[6][0]}<br/>
+						劣势：{$status[6][1]}
+					</td>
+					<td>{$aim[6]}</td>
+				</tr>
+			</table><br/><br/>
+			<center class="noprint">
+	<input type="button" value="打&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;印" class="btn btn-primary btn-lg " onclick="window.print()"></center>
+		</div>
+	</div>
+</body>
+</html>

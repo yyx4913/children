@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>小模块信息</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/checkPw.js"></script>
+</head>
+<body style="background:#E3F5FC;">
+	<div class="container">
+		<br/><br/><br/><center><h1 class="text-info">&nbsp;增加已有的量表信息(四)</h1>
+		<h3 class="text-info">添加小模块信息</h3>
+		<form action="__SELF__" method="post" class="form-horizontal">
+		  <table>
+		  		<tr><td><label class="text-primary">隶属大模块:</label></td><td><select name="b_module">{$tt}
+		  		<foreach name="res" item="v"><option value="{$v.s_m_id}">{$v.s_m_title}</option></foreach></select></td></tr>
+				<tr><td><label class="text-primary">已有小模块: &nbsp;&nbsp;</label></td><td>
+				<select name="s_module"><option value="">--请选择--</option><foreach name="res2" item="v2"><option value="{$v2.s_id}">{$v2.s_title}</option></foreach></select></td>
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class=" btn btn-info" onclick="add();" value="添加更多小模块" /></td></tr>
+		</table>
+				<div id="org"></div><br/>
+				<a href="__CONTROLLER__/b_module">上一步</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input name="submit" type="submit" value="下一步" class="btn btn-info btn-lg " >
+		</form></center>
+	</div>	
+</body>
+</html>

@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>量表信息页面</title>
+	<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/checkPw.js"></script>
+</head>
+<body style="background:#F0F2F5;">
+	<div class="container-fluid"><br/><br/>
+		<div class="chance">
+			<ul class="noprint" id="nav">
+				<foreach name="res" item="v"><li><a href="__URL__/add_record?kind_id={$v.kind_id}">{$v.kind_name}</a></li></foreach>
+				<!--  li><a href="__URL__/other_scale_list">其他量表</a></li-->
+			</ul>
+		</div>
+		<script type="text/javascript">
+		  var kind ="{$kind_id}"
+      	  var urlstr = location.href;
+	      var urlstatus=false;
+	      $("#nav a").each(function () {  
+	        if ((urlstr + '/').indexOf($(this).attr('href')) > -1&&$(this).attr('href')!='') {
+	          $(this).addClass('curument'); urlstatus = true;
+	        } else {
+	          $(this).removeClass('curument');
+	        }
+	      });
+	      if (!urlstatus) {$("#nav a").eq(kind-1).addClass('curument'); }
+    	</script>
+		<div class="clear"></div>
+		<div class="main">
+			<center><h1 class="text-info">儿童{$kind_name}评估表</h1></center>
+			<h4 class="text-right text-info">学生姓名：{$stu_name}&nbsp;&nbsp;</h4>
+			<div class="save"></div>
+			<form action="__URL__/scale_info" method="post">
+			<input type="hidden" name="kind_id" value="{$kind_id}"><input type="hidden" name="a_id" value="{$a_id}">
+			<table border="1" style="width:100%;text-align:center;font-size:0.8em; margin-top:-3em;">
+				<tr><th>代号</th><th colspan="2">评估范围</th><th>评估项目</th><th width="10%"> 评估记录 </th><th width="15%">备注</th></tr>
+                    <tr>
+                      <td>★1</td>
+                      <td  rowspan="2">依附情绪行为 </td>
+                      <td >回应行为反应 </td>
+                      <td><span><a href="" title="评估材料：{$res2[0].material}&#13;评估方法：{$res2[0].way}&#13;评估标准：{$res2[0].norm}">对成人的行为作出反应</a> </span></td>
+                      <td>
+                      
+                      <select name="g[]">
+                      	<option value="{$res1[0].items_values}">{$res1[0].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[0].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★2</td>
+                      <td >依恋情绪行为 </td>
+                      <td><span><a href="" title="评估材料：{$res2[1].material}&#13;评估方法：{$res2[1].way}&#13;评估标准：{$res2[1].norm}">与照顾者分离时的反应 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[1].items_values}">{$res1[1].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[1].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★3</td>
+                      <td  rowspan="4">情绪理解 </td>
+                      <td  rowspan="2">情绪识别 </td>
+                      <td><span><a href="" title="评估材料：{$res2[2].material}&#13;评估方法：{$res2[2].way}&#13;评估标准：{$res2[2].norm}">分辨成人的语气 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[2].items_values}">{$res1[2].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[2].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★4</td>
+                      <td><span><a href="" title="评估材料：{$res2[3].material}&#13;评估方法：{$res2[3].way}&#13;评估标准：{$res2[3].norm}">理解成人的表情 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[3].items_values}">{$res1[3].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[3].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★5</td>
+                      <td  rowspan="2">回应他人 </td>
+                      <td><span><a href="" title="评估材料：{$res2[4].material}&#13;评估方法：{$res2[4].way}&#13;评估标准：{$res2[4].norm}">安慰和帮助别人</a> </span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[4].items_values}">{$res1[4].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[4].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★6</td>
+                      <td><span><a href="" title="评估材料：{$res2[5].material}&#13;评估方法：{$res2[5].way}&#13;评估标准：{$res2[5].norm}">分享别人的快乐 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[5].items_values}">{$res1[5].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[5].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★7</td>
+                      <td  rowspan="8">情绪表达与调节 </td>
+                      <td  rowspan="4">表达情绪 </td>
+                      <td><span><a href="" title="评估材料：{$res2[6].material}&#13;评估方法：{$res2[6].way}&#13;评估标准：{$res2[6].norm}">用行动表达正面情绪 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[6].items_values}">{$res1[6].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[6].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★8</td>
+                      <td><span><a href="" title="评估材料：{$res2[7].material}&#13;评估方法：{$res2[7].way}&#13;评估标准：{$res2[7].norm}">用行动表达负面情绪</a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[7].items_values}">{$res1[7].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[7].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★9</td>
+                      <td><span><a href="" title="评估材料：{$res2[8].material}&#13;评估方法：{$res2[8].way}&#13;评估标准：{$res2[8].norm}">用语言表达正面情绪</a> </span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[8].items_values}">{$res1[8].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[8].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★10</td>
+                      <td><span><a href="" title="评估材料：{$res2[9].material}&#13;评估方法：{$res2[9].way}&#13;评估标准：{$res2[9].norm}">用语言表达负面情绪 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[9].items_values}">{$res1[9].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[9].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★11</td>
+                      <td  rowspan="4">调节情绪 </td>
+                      <td><span><a href="" title="评估材料：{$res2[10].material}&#13;评估方法：{$res2[10].way}&#13;评估标准：{$res2[10].norm}">调节正面情绪 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[10].items_values}">{$res1[10].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[10].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★12</td>
+                      <td><span><a href="" title="评估材料：{$res2[11].material}&#13;评估方法：{$res2[11].way}&#13;评估标准：{$res2[11].norm}">调节负面情绪 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[11].items_values}">{$res1[11].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[11].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★13</td>
+                      <td><span><a href="" title="评估材料：{$res2[12].material}&#13;评估方法：{$res2[12].way}&#13;评估标准：{$res2[12].norm}">忍受挫折，寻求帮助 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[12].items_values}">{$res1[12].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[12].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★14</td>
+                      <td><span><a href="" title="评估材料：{$res2[13].material}&#13;评估方法：{$res2[13].way}&#13;评估标准：{$res2[13].norm}">要求得不到满足时忍耐 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[13].items_values}">{$res1[13].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[13].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td  rowspan="11">关系与情感 </td>
+                      <td >物品运用 </td>
+                      <td><span><a href="" title="评估材料：{$res2[14].material}&#13;评估方法：{$res2[14].way}&#13;评估标准：{$res2[14].norm}">对镜中自己影像的反应 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[14].items_values}">{$res1[14].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[14].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>16</td>
+                      <td >接纳亲近 </td>
+                      <td><span><a href="" title="评估材料：{$res2[15].material}&#13;评估方法：{$res2[15].way}&#13;评估标准：{$res2[15].norm}">对身体接触的反应 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[15].items_values}">{$res1[15].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[15].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★17</td>
+                      <td >引发社交沟通 </td>
+                      <td><span><a href="" title="评估材料：{$res2[16].material}&#13;评估方法：{$res2[16].way}&#13;评估标准：{$res2[16].norm}">向测试员求助 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]" >
+                        <option value="{$res1[16].items_values}">{$res1[16].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[16].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★18</td>
+                      <td  rowspan="7">社交反应 </td>
+                      <td><span><a href="" title="评估材料：{$res2[17].material}&#13;评估方法：{$res2[17].way}&#13;评估标准：{$res2[17].norm}">对测试员的声音的反应 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[17].items_values}">{$res1[17].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[17].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★19</td>
+                      <td><span><a href="" title="评估材料：{$res2[18].material}&#13;评估方法：{$res2[18].way}&#13;评估标准：{$res2[18].norm}">目光接触</a> </span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[18].items_values}">{$res1[18].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[18].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★20</td>
+                      <td><span><a href="" title="评估材料：{$res2[19].material}&#13;评估方法：{$res2[19].way}&#13;评估标准：{$res2[19].norm}">情感 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[19].items_values}">{$res1[19].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[19].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★21</td>
+                      <td><span><a href="" title="评估材料：{$res2[20].material}&#13;评估方法：{$res2[20].way}&#13;评估标准：{$res2[20].norm}">恐惧的反应 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[20].items_values}">{$res1[20].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[20].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★22</td>
+                      <td><span><a href="" title="评估材料：{$res2[21].material}&#13;评估方法：{$res2[21].way}&#13;评估标准：{$res2[21].norm}">察觉测试员的存在</a> </span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[21].items_values}">{$res1[21].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[21].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★23</td>
+                      <td><span><a href="" title="评估材料：{$res2[22].material}&#13;评估方法：{$res2[22].way}&#13;评估标准：{$res2[22].norm}">与测试员合作 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[22].items_values}">{$res1[22].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[22].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★24</td>
+                      <td><span><a href="" title="评估材料：{$res2[23].material}&#13;评估方法：{$res2[23].way}&#13;评估标准：{$res2[23].norm}">对社交奖励（赞赏）有反应</a> </span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]" >
+                        <option value="{$res1[23].items_values}">{$res1[23].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[23].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★25</td>
+                      <td >适应转变 </td>
+                      <td><span><a href="" title="评估材料：{$res2[24].material}&#13;评估方法：{$res2[24].way}&#13;评估标准：{$res2[24].norm}">对干扰的忍耐力 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[24].items_values}">{$res1[24].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[24].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>26</td>
+                      <td  rowspan="9">对物品的兴趣 </td>
+                      <td  rowspan="9">运用物品及身体 </td>
+                      <td><span><a href="" title="评估材料：{$res2[25].material}&#13;评估方法：{$res2[25].way}&#13;评估标准：{$res2[25].norm}">对绳子的反应</a> </span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[25].items_values}">{$res1[25].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[25].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★27</td>
+                      <td><span><a href="" title="评估材料：{$res2[26].material}&#13;评估方法：{$res2[26].way}&#13;评估标准：{$res2[26].norm}">单独玩耍 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[26].items_values}">{$res1[26].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[26].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★28</td>
+                      <td><span><a href="" title="评估材料：{$res2[27].material}&#13;评估方法：{$res2[27].way}&#13;评估标准：{$res2[27].norm}">探索测试房间的环境 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[27].items_values}">{$res1[27].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[27].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★29</td>
+                      <td><span><a href="" title="评估材料：{$res2[28].material}&#13;评估方法：{$res2[28].way}&#13;评估标准：{$res2[28].norm}">检查测试材料 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[28].items_values}">{$res1[28].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[28].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★30</td>
+                      <td><span><a href="" title="评估材料：{$res2[29].material}&#13;评估方法：{$res2[29].way}&#13;评估标准：{$res2[29].norm}">测试时的行为 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[29].items_values}">{$res1[29].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[29].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★31</td>
+                      <td><span><a href="" title="评估材料：{$res2[30].material}&#13;评估方法：{$res2[30].way}&#13;评估标准：{$res2[30].norm}">专注力长短 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[30].items_values}">{$res1[30].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[30].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★32</td>
+                      <td><span><a href="" title="评估材料：{$res2[31].material}&#13;评估方法：{$res2[31].way}&#13;评估标准：{$res2[31].norm}">对物质奖励有反应 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]" >
+                        <option value="{$res1[31].items_values}">{$res1[31].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[31].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★33</td>
+                      <td><span><a href="" title="评估材料：{$res2[32].material}&#13;评估方法：{$res2[32].way}&#13;评估标准：{$res2[32].norm}">内在动机 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]" >
+                        <option value="{$res1[32].items_values}">{$res1[32].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[32].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★34</td>
+                      <td><span><a href="" title="评估材料：{$res2[33].material}&#13;评估方法：{$res2[33].way}&#13;评估标准：{$res2[33].norm}">动作及动静</a> </span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]" >
+                        <option value="{$res1[33].items_values}">{$res1[33].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[33].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★35</td>
+                      <td  rowspan="10">感觉偏好 </td>
+                      <td >视觉 </td>
+                      <td><span><a href="" title="评估材料：{$res2[34].material}&#13;评估方法：{$res2[34].way}&#13;评估标准：{$res2[34].norm}">视觉兴趣和灵敏度 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[34].items_values}">{$res1[34].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[34].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>36</td>
+                      <td  rowspan="3">听觉 </td>
+                      <td><span><a href="" title="评估材料：{$res2[35].material}&#13;评估方法：{$res2[35].way}&#13;评估标准：{$res2[35].norm}">对哨子声的反应 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[35].items_values}">{$res1[35].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[35].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>37</td>
+                      <td><span><a href="" title="评估材料：{$res2[36].material}&#13;评估方法：{$res2[36].way}&#13;评估标准：{$res2[36].norm}">对摇铃声音的反应 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]" >
+                        <option value="{$res1[36].items_values}">{$res1[36].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[36].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★38</td>
+                      <td><span><a href="" title="评估材料：{$res2[37].material}&#13;评估方法：{$res2[37].way}&#13;评估标准：{$res2[37].norm}">听觉灵敏度 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[37].items_values}">{$res1[37].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[37].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>39</td>
+                      <td  rowspan="4">触觉 </td>
+                      <td><span><a href="" title="评估材料：{$res2[38].material}&#13;评估方法：{$res2[38].way}&#13;评估标准：{$res2[38].norm}">检查触觉块 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[38].items_values}">{$res1[38].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[38].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>▲40</td>
+                      <td><span><a href="" title="评估材料：{$res2[39].material}&#13;评估方法：{$res2[39].way}&#13;评估标准：{$res2[39].norm}">对被瘙痒的反应</a> </span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[39].items_values}">{$res1[39].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[39].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>▲41</td>
+                      <td><span><a href="" title="评估材料：{$res2[40].material}&#13;评估方法：{$res2[40].way}&#13;评估标准：{$res2[40].norm}">对轻掐的反应 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]" >
+                        <option value="{$res1[40].items_values}">{$res1[40].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[40].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★42</td>
+                      <td><span><a href="" title="评估材料：{$res2[41].material}&#13;评估方法：{$res2[41].way}&#13;评估标准：{$res2[41].norm}">对质感的兴趣</a></span> </td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]" >
+                        <option value="{$res1[41].items_values}">{$res1[41].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[41].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★43</td>
+                      <td >味觉 </td>
+                      <td><span><a href="" title="评估材料：{$res2[42].material}&#13;评估方法：{$res2[42].way}&#13;评估标准：{$res2[42].norm}">对味觉的兴趣 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[42].items_values}">{$res1[42].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[42].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★44</td>
+                      <td >嗅觉 </td>
+                      <td><span><a href="" title="评估材料：{$res2[43].material}&#13;评估方法：{$res2[43].way}&#13;评估标准：{$res2[43].norm}">对嗅觉的兴趣 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[43].items_values}">{$res1[43].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[43].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★45</td>
+                      <td  rowspan="8">特殊行为 </td>
+                      <td  rowspan="4">特殊反应 </td>
+                      <td><span><a href="" title="评估材料：{$res2[44].material}&#13;评估方法：{$res2[44].way}&#13;评估标准：{$res2[44].norm}">不会过分活跃或过分安静 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]" >
+                        <option value="{$res1[44].items_values}">{$res1[44].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[44].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★46</td>
+                      <td><span><a href="" title="评估材料：{$res2[45].material}&#13;评估方法：{$res2[45].way}&#13;评估标准：{$res2[45].norm}">不会情绪不稳，波动很大 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[45].items_values}">{$res1[45].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[45].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★47</td>
+                      <td><span><a href="" title="评估材料：{$res2[46].material}&#13;评估方法：{$res2[46].way}&#13;评估标准：{$res2[46].norm}">不会对自己、别人或物品作出伤害或攻击 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[46].items_values}">{$res1[46].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[46].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★48</td>
+                      <td><span><a href="" title="评估材料：{$res2[47].material}&#13;评估方法：{$res2[47].way}&#13;评估标准：{$res2[47].norm}">没有不服从或不合作行为</a> </span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[47].items_values}">{$res1[47].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[47].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★49</td>
+                      <td  rowspan="4">特殊习惯 </td>
+                      <td><span><a href="" title="评估材料：{$res2[48].material}&#13;评估方法：{$res2[48].way}&#13;评估标准：{$res2[48].norm}">没有固执或重复的行为 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[48].items_values}">{$res1[48].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[48].remark}"/></td>
+                    </tr>
+                    <tr>
+                      <td>★50</td>
+                      <td><span><a href="" title="评估材料：{$res2[49].material}&#13;评估方法：{$res2[49].way}&#13;评估标准：{$res2[49].norm}">不会进行一些没有明显意义的古怪行为或动作 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[49].items_values}">{$res1[49].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[49].remark}" /></td>
+                    </tr>
+                    <tr>
+                      <td>★51</td>
+                      <td><span><a href="" title="评估材料：{$res2[50].material}&#13;评估方法：{$res2[50].way}&#13;评估标准：{$res2[50].norm}">不会对某些话题或事物有狭隘或过分强烈的兴趣 </a></span></td>
+                      
+                      
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[50].items_values}">{$res1[50].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[50].remark}" /></td>
+                    </tr>
+                    <tr>
+                      <td>★52</td>
+                      <td><span><a href="" title="评估材料：{$res2[51].material}&#13;评估方法：{$res2[51].way}&#13;评估标准：{$res2[51].norm}">不会鹦鹉学舌的说话</a> </span></td>
+                      <td>
+                      
+                      <select name="g[]">
+                        <option value="{$res1[51].items_values}">{$res1[51].items_values}</option>
+                        
+                        
+                        
+                      </select>
+                      </td>
+                      <td><input type="text" name="gz[]" value="{$res1[51].remark}"></td>
+                    </tr>
+                  </table><br/>
+  				  <h4 class="text-danger">备注：<br/>
+				★——代表观察项目<br/>
+				▲ ——代表直接观察或是直接评估项目<br/>
+				项目号前面没有任何标注的为直接评估项目<br/>
+			</h4>
+			<center class="noprint">
+			
+			<input type="button" value="打&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;印" class="btn btn-primary btn-lg " onclick="window.print()">
+			</center>
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript">
+	setInterval(function(){
+		//alert('aaa');
+		var url ="__URL__/scale_info";
+		var data = $("#myForm").serializeArray();
+		var g=[];
+		var gz=[];
+		for(var i=2,k=0;i<data.length;i++,k++){
+			if(i%2==0){
+				g.push(data[i]["value"]);	
+			}else{
+				gz.push(data[i]["value"]);
+			}
+		}
+		var postData={kind_id:data[0].value,a_id:data[1].value,g:g,gz:gz};
+		$.post(url,postData,function(result){
+			$('.save').show();
+			 $('.save').html('数据自动保存成功~~');
+		        setTimeout(function() {$('.save').hide();}, 2000);
+		        return;
+		});
+	},60000); //每隔一分钟保存一次
+</script>
+</body>
+</html>
+

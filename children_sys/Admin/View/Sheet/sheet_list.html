@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>评估结果分析表汇总</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+</head>
+<body style="background:#F0F2F5;">
+	<div class="container-fluid ">
+		<div class="main" style="margin-top:1em;">
+			<center><h1 class="text-info">评估结果分析表汇总</h1></center>
+			<hr style="border:1px solid #A7B9CB;">
+			<foreach name="kind" item="v" key="k">
+			<table border="1" width="100%">
+				<tr><td style="text-align:center; width:100px;"><b>{$v}</b></td>
+				<td width="500"><table border="1">
+					<foreach name="arr[$k]" item="v1" ><tr><td style="padding-left:1em;width:800px;">
+					{$v1}</td></tr></foreach></table>
+				</td></tr>
+			</table></foreach>
+		</div>		
+	</div>
+</body>
+</html>

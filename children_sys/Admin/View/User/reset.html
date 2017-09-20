@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>修改密码</title>
+	<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/checkPw.js"></script>
+</head>
+<body>
+		<div class="container">
+			<img src="__PUBLIC__/images/reset.jpg" style="width:95%;">
+			<form action="__URL__/Reset" name="form1" method="post" class="form-horizontal" onsubmit="return agree()">
+					<div class="form-group">
+						<label class="col-xs-3 control-label"  for="old_pwd">原始密码：</label>
+						<div class="col-xs-5">
+							<input type="password" name="old_pwd" id="old_pwd" class="form-control" placeholder="请输入原始密码"  onblur="checkOld(this.value)"> 
+						</div>
+						<div class="col-xs-3">
+						<span id="old" style="color:red; font-size:0.8em;"></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-xs-3 control-label"  for="user_pw">新密码：</label>
+						<div class="col-xs-5">
+							<input type="password" name="new_pwd" id="new_pwd" class="form-control" placeholder="请输入新密码" onkeyup="javascript:checkPw(this.value);" onblur="checkLength(this.value)"> 
+						</div>
+						<div class="col-xs-3">
+						<span id="pw" style="color:red; font-size:0.8em;">* 6~15个字符的长度</span>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-xs-3 control-label"  for="new_pwd">密码强度：</label>
+						<div class="col-xs-5" style="text-align:center; ">
+							<div class="col-xs-3 " style="border:1px solid #EA3D01;" id="weak">弱</div>
+							<div class="col-xs-3 " style="border:1px solid #F97F10; " id="middle">中</div>
+							<div class="col-xs-3" id="strength" style="border:1px solid #6CA100;">强</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-xs-3 control-label"  for="new_pwd1">确认密码：</label>
+						<div class="col-xs-5">
+							<input type="password" name="new_pwd1" id="new_pwd1" class="form-control" placeholder="请确认新密码" onblur="reCheck(this.value)" > 
+						</div>
+						<span id="pw1" style="color:red; font-size:0.8em;"></span>
+					</div>
+					
+					<div class="form-group">
+						<div class="col-xs-5 col-xs-offset-3">
+							<span class=" col-xs-offset-2" ><input name="submit" type="submit" value="确认提交" class="btn btn-info"></span>
+							<span class=" col-xs-offset-1" ><input name="reset" type="reset" class="btn btn-success"></span>
+						</div>
+					</div>
+				</form>		
+	</div>
+</body>
+</html>

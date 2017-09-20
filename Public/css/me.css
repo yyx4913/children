@@ -1,0 +1,165 @@
+@CHARSET "UTF-8";
+.container{ width:1024px;}
+.container1{ width:100%; }
+#main-nav {
+            margin-left: 1px;
+        }
+ 
+            #main-nav.nav-tabs.nav-stacked > li > a {
+                padding: 10px 8px;
+                font-size: 1.3em;
+                font-weight: 500;
+          		background:#E0F2FC;
+                border: 1px solid #D5D5D5;
+                border-radius: 4px;
+            }
+                #main-nav.nav-tabs.nav-stacked > li > a > span {
+                    color: #7FC0E7;
+                    
+                }
+ 
+                #main-nav.nav-tabs.nav-stacked > li.active > a, #main-nav.nav-tabs.nav-stacked > li > a:hover {
+                    color: #FFF;
+                    background: #2C93EA;
+                    border-color: #0A6AC1;
+                }
+ 
+                    #main-nav.nav-tabs.nav-stacked > li.active > a, #main-nav.nav-tabs.nav-stacked > li > a:hover > span {
+                        color: #FFF;
+                    }
+ 
+            #main-nav.nav-tabs.nav-stacked > li {
+                margin-bottom: 4px;
+            }
+ 
+        /*定义二级菜单样式*/
+        .secondmenu a {
+            font-size: 1.1em;
+            font-weight: 400;
+            color:black;
+            background:#FFF;
+           
+        }
+ 		
+ 	form{ margin-top:3em; font-size:1.2em;}
+ 	
+ /*表格样式*/
+
+ table tr th {
+ 	text-align:center;
+ 	font-size:1.5em;
+ 	line-height:2em;
+ 	background:#6AB2F0;
+ 	color:white;
+ }
+  table tr td{
+  	line-height:2em;
+ 	font-size:1.2em;
+ }
+ table tr td select{
+	padding-left:1em;
+ }
+.main table tr td input{width:100%;}
+.main table tr td select{width:100%;height:100%;text-align:center;}
+ 
+ table tr td a:hover,a:active{
+ color:#0D3471;
+ }
+ .pull-right
+ {
+ 	margin-right:2em;
+ }
+ 	
+ /* 学生基本信息表 */	 
+ .left_info
+ {
+
+ 	margin-top:-2em;
+ 	width:70%;
+ }
+ .left_info table tr td{
+ 	font-size:1em;
+ 	height:2.5em;
+ }
+ .all{
+ 	text-align:center;
+ 	border:1px solid black;
+ 	width:100%;
+ }
+ 
+ .left_info1
+ {
+ 	width:70%;
+ }
+ .left_info1 table tr td{
+ 	font-size:1.2em;
+ 	text-align:center;
+ 	width:10em;
+ }
+ 
+  .right{
+    width:28%;
+ 	float:right;
+ 	text-align:center;
+ }
+ 
+  .right_info{    /*头像格式*/
+ 	float:right;
+ 	text-align:center;
+ 	margin-right:6em;
+ 	margin-top:0.5em;
+ 	border:1px solid #D1D3D3;
+ 	padding:0.8em;
+ }
+
+.right_info img{
+ 	width:130px;
+ 	height:160px;
+}
+.last_info{
+}
+.last_info table {
+ 	width:100%;
+ }
+  .last_info table tr td {
+ 	font-size:1em;
+ 	height:2.6em;
+ }
+ .last_info1 table {
+ 	width:100%;
+ }
+ form {margin-bottom:3em;}
+ /**** 菜单导航栏   ***/
+.menu{
+	margin-top:0.85em;
+	margin-right:1em;
+	padding:0.85em;
+	/*border:1px solid #81C1F7;*/
+	text-align:center;
+	float:right;
+}
+
+/*******  评估记录显示区  *****/
+.chance {margin:0 auto; width:960px;}
+.chance ul{ margin-left:-2.7em;}
+.chance ul li {display: inline; list-style:none; margin-right:0.85em;background-color:#E0F2FC; width:6em; border:1px solid #D5D5D5;
+text-align:center; font-size:1.25em; padding:0.5em;border-radius:0.45em 0.65em 0em 0em;}
+.chance ul li a:hover,a:active{color:#12436F;font-weight:bold; text-decoration:none;}
+.curument{ background:#6AB2F0; font-weight:bold;margin:0 -0.5em 0 -0.5em;padding:0.5em;}
+.main {margin:0 auto;margin-top:-0.2em; width:960px;border:2px solid #B4DBF0; padding:1em ;}
+
+/************量表部分***************/
+#org { margin-left:9em;margin-top:0.5em;}
+#org input{ width:8em;margin-right:0.9em; border-radius:0.35em; font-size:1.25em;margin-bottom:0.6em;}
+
+/**********局部打印***********/
+@media print {
+ body {-webkit-print-color-adjust: exact;}  
+.noprint { display: none;color:green }
+} 
+
+.save{ margin:0 40% 0 38%; text-align: center; width:200px; font-size:1.2em; color:#368BB7; background-color:#D5D5D5;}
+
+/**行为表现图*/
+.rec{margin-top:-1em;margin-left:5em;margin-bottom:2em;}
+.rec input{float:left;width:3em; margin-left:1.75em;text-align:center;}

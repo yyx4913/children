@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>新增量表</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+</head>
+<body style="background:#F0F2F5;">
+	<h1 class="text-primary">&nbsp;&nbsp;&nbsp;&nbsp;新增评估量表</h1>
+	<hr style=" width:94%;margin-top:0em;border:2px solid #4D9DE3;" /><br/><br/>
+	<div class="container ">
+		<div class="main">
+			<ul>
+			<foreach name="res" item="v" key="k">
+				<li style="font-size:1.35em; list-style-type:none;color:#5FA0D6;"><a href="other_scale_info?kind_id={$v.kind_id}" 
+				title ="查看量表详情">{$k+1}.&nbsp;&nbsp;&nbsp;{$v.kind_name}</a></li>
+				<hr style="margin-top:0em;border:1px dashed #4D9DE3;" />
+			</foreach>
+			<center>{$pagelist}</center>
+			</ul>
+		</div>
+		
+	</div>
+	
+</body>
+</html>

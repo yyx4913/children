@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>训练建议</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/checkPw.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/print.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.jqprint-0.3.js"></script>
+	
+</head>
+<body style="background:#F0F2F5;margin-top:1.5em;">
+	<div class="container ">
+		<div class="chance">
+			<ul>
+				<foreach name="res1" item="v1"><li><a href="__URL__/info?kind_id={$v1.kind_id}">{$v1.kind_name}</a></li></foreach>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<div class="main" id="ddd">
+		<center><h2 class="text-primary">{$kind_name}训练建议</h2>	</center>
+		<h4 class="text-right text-info">学生：{$stu_name}</h4>
+		<hr style=" width:100%;margin-top:0em;border:2px solid #4D9DE3; " />
+		<table border="1" style="width:930px;text-align:center; margin-bottom:3em;table-layout:fixed;">
+			<tr><th width="5%">编号</th><th width="46%">中间E项</th><th>训练建议</th></tr>
+			
+			<foreach name="info" item="v" key="k">
+				<tr><td>{$k+1}</td><td>{$v}</td><td>{$info1[$k]}</td></tr>
+			</foreach>
+		</table>
+		</div><br/>
+		<center><input type="button" onclick=" a()" value="打&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;印" class="btn btn-info btn-lg " ></center>
+		<script>  
+		function  a(){
+	        $("#ddd").jqprint();
+	    }
+		</script> 
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>所有种类的评价表信息汇总</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/checkPw.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/Chart.min.js"></script>
+	<style>
+		.kong {display:inline;background:#CBDDE6;border:1px solid #759FB7;}
+		.kong1 {display:inline;background:#FB9684;border:1px solid red;}
+		.kong2 {display:inline;background:#8E84FB;border:1px solid #5B487D;}
+	</style>
+</head>
+<body style="background:#F0F2F5;">
+	<h1 class="text-primary">&nbsp;&nbsp;&nbsp;&nbsp;评估记录结果汇总表</h1>
+	<hr style=" width:94%;margin-top:0em;border:2px solid #4D9DE3;" /><br/><br/>
+	<div class="container-fluid ">
+		<div class="main">
+			<h4 class="text-right text-info">学生姓名：{$stu_name}&nbsp;&nbsp;</h4>
+			<center><h3 class="text-info">评估记录柱状图</h3>
+			<div class="kong">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> P的个数&nbsp;&nbsp;
+			<div class="kong1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> E的个数&nbsp;&nbsp;
+			<div class="kong2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> F的个数</center>
+			<canvas id="line1" width="780" height="350" style="margin:0em 4em 2em 4em;"></canvas>
+			<script type="text/javascript">
+			var line1 =document.getElementById('line1').getContext('2d');
+			var lineChart= new Chart(line1); 
+			var arr = new Array();
+			arr = {$arr};
+			var data = arr ;
+			lineChart.Bar(data,{
+				 scaleBeginAtZero : true,
+				 scaleShowGridLines : true,
+			});
+			</script>
+			<br/>
+			<hr style="border-top:1px dotted #98989B;width:85%">
+			<center><h3 class="text-info">评估记录得分雷达图</h3></center><br/>
+			<canvas id="line2" width="780" height="400" style="margin:0em 4em 2em 4em;padding:0.5em;"></canvas>
+			<script type="text/javascript">
+			var line2 =document.getElementById('line2').getContext('2d');
+			var lineChart= new Chart(line2); 
+			var arr = new Array();
+			arr = {$arr1};
+			var data = arr ;
+			lineChart.Radar(data,{
+				scaleBeginAtZero : true,
+				 scaleShowGridLines : true,
+			});
+			</script><br/><br/>
+			<center class="noprint text-right"><input type="button" value="打&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;印" class="btn btn-primary btn-lg " onclick="window.print()"></center><br/>
+		</div>
+		
+</body>
+</html>

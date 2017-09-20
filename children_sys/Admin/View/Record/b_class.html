@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>大分类页面</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/checkPw.js"></script>
+</head>
+<body style="background:#E3F5FC;">
+	<div class="container">
+		<br/><br/><br/><center><h1 class="text-info">&nbsp;增加已有的量表信息(一)</h1>
+		<h3 class="text-info">大分类信息</h3>
+		<form action="__SELF__" method="post" class="form-horizontal">
+		  <table>
+		  		<tr><td><label class="text-primary">已有的大分类：</label></td><td><select name="b_class"><option value="">--请选择--</option>
+		  		<foreach name="res" item="v"><option value="{$v.kind_id}">{$v.kind_name}</option></foreach></td>
+		  		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class=" btn btn-info" onclick="add();" value="添加更多大分类" /></td></tr>	
+		</table>
+				<div id="org"></div><br/>
+				<input name="submit" type="submit" value="下一步" class="btn btn-info btn-lg " >
+		</form></center>
+	</div>	
+</body>
+</html>

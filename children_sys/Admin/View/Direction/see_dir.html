@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>教育跟踪表</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/checkPw.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/laydate/laydate.js"></script>
+	<script type="text/javascript">
+	window.onload =function()
+	{
+		var way ="{$res1[way]}";
+		var way =way.split("、");
+		var arr = document.getElementsByName("way[]");
+		for(var i=0;i<arr.length;i++)
+		{
+			for(var j=0;j<way.length;j++){
+				if(arr[i].value==way[j])
+				{
+					arr[i].checked=true;
+				}
+			}	
+		}
+	}
+	</script>
+	<style type="text/css">
+	   td label{ text-align:center;width:100%;}
+	</style>
+</head>
+<body>
+	<div class="container" >
+		<br/><center><h1 class="text-info">&nbsp;自闭症儿童后续教育跟踪表</h1></center>
+		<form action="__CONTROLLER__/edit_dir" method="post">
+			<table border="1" width="100%" style="margin-top:-2.2em;">
+				<tr>
+					<td width="120"><label>姓　　名</label></td><td>&nbsp;&nbsp;&nbsp;{$res["stu_name"]}</td>
+					<td width="100"><label>性　　别</label></td><td width="130">&nbsp;&nbsp;&nbsp;{$res["sex"]}</td>
+					<td width="120"><label>出生日期</label></td><td>&nbsp;&nbsp;&nbsp;{$res["brith"]}</td>
+				</tr>
+				<tr>
+					<td ><label>毕业机构</label></td>
+					<td>&nbsp;&nbsp;&nbsp;{$res1["graduate"]}</td>
+					<td ><label>毕业时间</label></td>
+					<td>&nbsp;&nbsp;&nbsp;{$res1["left_time"]}</td>
+					<td ><label>康复程度</label></td>
+					<td>&nbsp;&nbsp;&nbsp;{$res1["level"]}</td>
+				</tr>	
+				<tr>
+					<td ><label>转入学校名称</label></td>
+					<td colspan="3">&nbsp;&nbsp;&nbsp;{$res1["school"]}</td>
+					<td ><label>入读时间</label></td>
+					<td>&nbsp;&nbsp;&nbsp;{$res1["time"]}</td>
+				</tr>
+				<input type="hidden" name="d_id" value="{$res1.d_id}">
+				<tr><td><label>被访问人</label></td><td colspan="2">&nbsp;&nbsp;&nbsp;{$res1["person"]}</td>
+				<td><label>联系电话</label></td><td colspan="2">&nbsp;&nbsp;&nbsp;{$res1["phone"]}</td></tr>
+				<tr><td><label>访问地点</label></td><td colspan="2">&nbsp;&nbsp;&nbsp;{$res1["place"]}</td>
+				<td><label>访问方式</label></td><td colspan="2">
+				&nbsp;&nbsp;&nbsp;<input type="checkbox" name="way[]" value="面谈" >面谈&nbsp;&nbsp;&nbsp;<input type="checkbox" name="way[]" value="电话" >电话
+				&nbsp;&nbsp;&nbsp;<input type="checkbox" name="way[]" value="问卷" >问卷&nbsp;&nbsp;&nbsp;<input type="checkbox" name="way[]" value="家访" >家访</td></tr>
+				<tr><td><label>上课表现</label></td><td colspan="5">&nbsp;&nbsp;&nbsp;{$action[0]}</td></tr>	
+				<tr><td><label>作业情况</label></td><td colspan="5">&nbsp;&nbsp;&nbsp;{$action[1]}</td></tr>	
+				<tr><td><label>活动表现</label></td><td colspan="5">&nbsp;&nbsp;&nbsp;{$action[2]}</td></tr>	
+				<tr><td><label>行为表现</label></td><td colspan="5">&nbsp;&nbsp;&nbsp;{$action[3]}</td></tr>	
+				<tr><td><label>其他表现</label></td><td colspan="5">&nbsp;&nbsp;&nbsp;{$action[4]}</td></tr>	
+				<tr><td><label>目前存在问题和困难</label></td><td colspan="5">&nbsp;&nbsp;&nbsp;{$action[5]}</td></tr>	
+				<tr><td><label>辅导方法</label></td><td colspan="5">&nbsp;&nbsp;{$action[6]}</td></tr>	
+				<tr><td><label>教师、同学提供的帮助</label></td><td colspan="5">&nbsp;&nbsp;&nbsp;{$action[7]}</td></tr>
+				<tr><td><label>看法和建议</label></td><td colspan="5">&nbsp;&nbsp;&nbsp;{$action[8]}</td></tr>			
+				<tr><td><label>访问人</label></td>
+				<td colspan="2">&nbsp;&nbsp;&nbsp;{$res1["teller"]}</td>
+				<td><label>访问日期</label></td>
+				<td colspan="2">&nbsp;&nbsp;&nbsp;{$res1["tell"]}</td></tr>
+			</table><br/>
+			<center class="noprint"> <input name="submit" type="submit" value="修&nbsp;改&nbsp;信&nbsp;息" class="btn btn-info btn-lg " >
+			　　　　　　<input type="button" value="打&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;印" class="btn btn-primary btn-lg " onclick="window.print()"></center>	
+	</div><br/><br/>
+</body>
+</html>

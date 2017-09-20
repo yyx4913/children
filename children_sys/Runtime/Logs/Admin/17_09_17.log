@@ -1,0 +1,2143 @@
+[ 2017-09-17T14:57:49+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.152008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.044002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.045003s ]
+NOTIC: [8] Undefined index: admin_name D:\xampp\htdocs\children\children_sys\Admin\Controller\IndexController.class.php 第 7 行.
+
+[ 2017-09-17T14:57:50+08:00 ] 127.0.0.1 /index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2017-09-17T14:57:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: admin_name D:\xampp\htdocs\children\children_sys\Admin\Controller\IndexController.class.php 第 7 行.
+
+[ 2017-09-17T14:57:51+08:00 ] 127.0.0.1 /index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2017-09-17T14:57:52+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T14:57:55+08:00 ] 127.0.0.1 /index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0870s ]
+NOTIC: [8] Use of undefined constant conf_name - assumed 'conf_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\LoginController.class.php 第 27 行.
+SQL: SELECT `conf_name` FROM `config` WHERE ( conf_id=3 ) LIMIT 1   [ RunTime:0.0270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.019001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-09-17T14:57:55+08:00 ] 127.0.0.1 /index.php/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T14:57:58+08:00 ] 127.0.0.1 /index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant conf_name - assumed 'conf_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\LoginController.class.php 第 27 行.
+SQL: SELECT `conf_name` FROM `config` WHERE ( conf_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T14:57:58+08:00 ] 127.0.0.1 /index.php/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T14:58:07+08:00 ] 127.0.0.1 /index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant conf_name - assumed 'conf_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\LoginController.class.php 第 27 行.
+SQL: SELECT `conf_name` FROM `config` WHERE ( conf_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_info` [ RunTime:0.0800s ]
+SQL: SELECT * FROM `admin_info` WHERE ( admin_name="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sysinfo` [ RunTime:0.0340s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\xampp\htdocs\children\children_sys\Admin\Controller\LoginController.class.php 第 44 行.
+SQL: SELECT `status` FROM `sysinfo` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-17T14:58:07+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T14:58:07+08:00 ] 127.0.0.1 /index.php/Index/header.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T14:58:07+08:00 ] 127.0.0.1 /index.php/Index/sysInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T14:58:08+08:00 ] 127.0.0.1 /index.php/Index/footer.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant admin_name - assumed 'admin_name' D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\24b657e76343ac1c0e3c819d3fc175a1.php 第 13 行.
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\24b657e76343ac1c0e3c819d3fc175a1.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T14:58:08+08:00 ] 127.0.0.1 /index.php/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: stu_id D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\826f2d137a3dbb134dd6a82a8c187953.php 第 64 行.
+NOTIC: [8] Undefined variable: stu_id D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\826f2d137a3dbb134dd6a82a8c187953.php 第 65 行.
+NOTIC: [8] Undefined variable: stu_id D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\826f2d137a3dbb134dd6a82a8c187953.php 第 66 行.
+NOTIC: [8] Undefined variable: stu_id D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\826f2d137a3dbb134dd6a82a8c187953.php 第 67 行.
+NOTIC: [8] Undefined variable: stu_id D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\826f2d137a3dbb134dd6a82a8c187953.php 第 68 行.
+NOTIC: [8] Undefined variable: stu_id D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\826f2d137a3dbb134dd6a82a8c187953.php 第 69 行.
+NOTIC: [8] Undefined variable: stu_id D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\826f2d137a3dbb134dd6a82a8c187953.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T14:58:10+08:00 ] 127.0.0.1 /index.php/Record/show_record/stu_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\RecordController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0420s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\RecordController.class.php 第 11 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\RecordController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant admin_name - assumed 'admin_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\RecordController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T14:58:11+08:00 ] 127.0.0.1 /index.php/Stu/all_stu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant admin_name - assumed 'admin_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\StuController.class.php 第 515 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stu_info` LIMIT 1   [ RunTime:0.0120s ]
+SQL: select c_id,stu_id,stu_num,sex,stu_name,class from stu_info  order by stu_info.class  Limit 0, 16 [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T14:58:14+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T14:58:14+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T14:58:15+08:00 ] 127.0.0.1 /index.php/Stu/all_stu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant admin_name - assumed 'admin_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\StuController.class.php 第 515 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stu_info` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select c_id,stu_id,stu_num,sex,stu_name,class from stu_info  order by stu_info.class  Limit 0, 16 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T14:58:18+08:00 ] 127.0.0.1 /index.php/Record/add_record/stu_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\RecordController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\RecordController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.1300s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0040s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `brith` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2 ORDER BY a_id desc LIMIT 3   [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T14:58:19+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0030s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0010s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.1210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-17T14:58:25+08:00 ] 127.0.0.1 /index.php/Check/add/kind_id/1/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `scales` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scales` WHERE ( s_id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T14:58:25+08:00 ] 127.0.0.1 /Public/js/kindeditor/lang/zh-CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T14:58:31+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0030s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0010s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T14:58:59+08:00 ] 127.0.0.1 /index.php/Check/info?kind_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0020s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 7 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '7' and item_values.a_id='4'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T14:59:13+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0030s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T14:59:14+08:00 ] 127.0.0.1 /index.php/Check/add/kind_id/1/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `scales` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scales` WHERE ( s_id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T14:59:14+08:00 ] 127.0.0.1 /Public/js/kindeditor/lang/zh-CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T14:59:17+08:00 ] 127.0.0.1 /index.php/Check/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `suggest` [ RunTime:0.0260s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 127 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `suggest` SET `action`='的发送的方式' WHERE ( s_id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `suggest` SET `action`='的发送的方式' WHERE ( s_id= )
+
+[ 2017-09-17T15:10:51+08:00 ] 127.0.0.1 /index.php/Check/add/kind_id/1/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `scales` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scales` WHERE ( s_id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-17T15:10:51+08:00 ] 127.0.0.1 /Public/js/kindeditor/lang/zh-CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:15:23+08:00 ] 127.0.0.1 /index.php/Check/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-09-17T15:15:24+08:00 ] 127.0.0.1 /index.php/Check/add/kind_id/1/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `scales` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scales` WHERE ( s_id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-09-17T15:15:25+08:00 ] 127.0.0.1 /Public/js/kindeditor/lang/zh-CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:15:27+08:00 ] 127.0.0.1 /index.php/Check/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+
+[ 2017-09-17T15:18:36+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2017-09-17T15:18:36+08:00 ] 127.0.0.1 /index.php/Index/header.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-17T15:18:36+08:00 ] 127.0.0.1 /index.php/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: stu_id D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\826f2d137a3dbb134dd6a82a8c187953.php 第 64 行.
+NOTIC: [8] Undefined variable: stu_id D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\826f2d137a3dbb134dd6a82a8c187953.php 第 65 行.
+NOTIC: [8] Undefined variable: stu_id D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\826f2d137a3dbb134dd6a82a8c187953.php 第 66 行.
+NOTIC: [8] Undefined variable: stu_id D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\826f2d137a3dbb134dd6a82a8c187953.php 第 67 行.
+NOTIC: [8] Undefined variable: stu_id D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\826f2d137a3dbb134dd6a82a8c187953.php 第 68 行.
+NOTIC: [8] Undefined variable: stu_id D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\826f2d137a3dbb134dd6a82a8c187953.php 第 69 行.
+NOTIC: [8] Undefined variable: stu_id D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\826f2d137a3dbb134dd6a82a8c187953.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-09-17T15:18:36+08:00 ] 127.0.0.1 /index.php/Index/sysInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:18:36+08:00 ] 127.0.0.1 /index.php/Index/footer.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant admin_name - assumed 'admin_name' D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\24b657e76343ac1c0e3c819d3fc175a1.php 第 13 行.
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Runtime\Cache\Admin\24b657e76343ac1c0e3c819d3fc175a1.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:18:38+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0020s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0010s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:18:40+08:00 ] 127.0.0.1 /index.php/Check/add/kind_id/1/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `scales` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scales` WHERE ( s_id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:18:40+08:00 ] 127.0.0.1 /Public/js/kindeditor/lang/zh-CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:18:42+08:00 ] 127.0.0.1 /index.php/Check/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `suggest` [ RunTime:0.0020s ]
+SQL: UPDATE `suggest` SET `sc_id`='8',`action`='多撒所' WHERE ( sc_id=8 ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:18:43+08:00 ] 127.0.0.1 /index.php/Check/add/kind_id/1/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `scales` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scales` WHERE ( s_id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:18:43+08:00 ] 127.0.0.1 /Public/js/kindeditor/lang/zh-CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-17T15:18:46+08:00 ] 127.0.0.1 /index.php/Check/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `suggest` [ RunTime:0.0020s ]
+SQL: UPDATE `suggest` SET `sc_id`='8',`action`='大大' WHERE ( sc_id=8 ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-17T15:18:46+08:00 ] 127.0.0.1 /index.php/Check/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `suggest` [ RunTime:0.0020s ]
+SQL: UPDATE `suggest` SET `sc_id`='8',`action`='大大' WHERE ( sc_id=8 ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:18:47+08:00 ] 127.0.0.1 /index.php/Check/add/kind_id/1/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `scales` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scales` WHERE ( s_id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T15:18:47+08:00 ] 127.0.0.1 /Public/js/kindeditor/lang/zh-CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:19:22+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0020s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T15:19:23+08:00 ] 127.0.0.1 /index.php/Check/add/kind_id/1/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `scales` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scales` WHERE ( s_id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:19:23+08:00 ] 127.0.0.1 /Public/js/kindeditor/lang/zh-CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T15:19:26+08:00 ] 127.0.0.1 /index.php/Check/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+
+[ 2017-09-17T15:19:42+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0020s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0010s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-17T15:19:43+08:00 ] 127.0.0.1 /index.php/Check/add/kind_id/1/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `scales` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `scales` WHERE ( s_id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T15:19:43+08:00 ] 127.0.0.1 /Public/js/kindeditor/lang/zh-CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:19:44+08:00 ] 127.0.0.1 /index.php/Check/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `suggest` [ RunTime:0.0020s ]
+SQL: UPDATE `suggest` SET `sc_id`='8',`action`='当时的撒' WHERE ( sc_id=8 ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:19:45+08:00 ] 127.0.0.1 /index.php/Check/add/kind_id/1/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `scales` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scales` WHERE ( s_id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:19:46+08:00 ] 127.0.0.1 /Public/js/kindeditor/lang/zh-CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T15:20:15+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0260s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0030s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0010s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:20:16+08:00 ] 127.0.0.1 /index.php/Check/add/kind_id/1/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `scales` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scales` WHERE ( s_id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T15:20:16+08:00 ] 127.0.0.1 /Public/js/kindeditor/lang/zh-CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-17T15:20:18+08:00 ] 127.0.0.1 /index.php/Check/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+
+[ 2017-09-17T15:20:18+08:00 ] 127.0.0.1 /index.php/Check/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+
+[ 2017-09-17T15:21:14+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0180s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0020s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T15:21:16+08:00 ] 127.0.0.1 /index.php/Check/add/kind_id/1/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `scales` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scales` WHERE ( s_id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T15:21:16+08:00 ] 127.0.0.1 /Public/js/kindeditor/lang/zh-CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:21:17+08:00 ] 127.0.0.1 /index.php/Check/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `suggest` [ RunTime:0.0030s ]
+SQL: INSERT INTO `suggest` (`sc_id`,`action`) VALUES ('8','SaaS') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:21:19+08:00 ] 127.0.0.1 /index.php/Check/info/kind_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0020s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0010s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:21:23+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0030s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:23:37+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0280s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0020s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T15:24:24+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0030s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:24:50+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0030s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T15:25:01+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0030s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T15:26:35+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0180s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0020s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: info D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 82 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:33:55+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0030s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `suggest` [ RunTime:0.0020s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:34:05+08:00 ] 127.0.0.1 /index.php/Check/add/kind_id/1/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `scales` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `scales` WHERE ( s_id=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:34:05+08:00 ] 127.0.0.1 /Public/js/kindeditor/lang/zh-CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T15:34:07+08:00 ] 127.0.0.1 /index.php/Check/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `suggest` [ RunTime:0.0030s ]
+SQL: INSERT INTO `suggest` (`sc_id`,`action`) VALUES ('9','水水水水') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:34:08+08:00 ] 127.0.0.1 /index.php/Check/info/kind_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0030s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `suggest` [ RunTime:0.0030s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:34:16+08:00 ] 127.0.0.1 /index.php/Check/info?kind_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0020s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 7 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '7' and item_values.a_id='4'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `suggest` [ RunTime:0.0020s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=90 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=91 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=91 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=91 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=92 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:34:18+08:00 ] 127.0.0.1 /index.php/Check/info?kind_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0340s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0030s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 6 AND `stu_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `suggest` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: res D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 84 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: info D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 94 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: info1 D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 95 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 95 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:34:19+08:00 ] 127.0.0.1 /index.php/Check/info?kind_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0030s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 7 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '7' and item_values.a_id='4'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `suggest` [ RunTime:0.0030s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=90 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=91 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=91 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=91 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=92 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T15:45:55+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0020s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `suggest` [ RunTime:0.0030s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-17T15:45:59+08:00 ] 127.0.0.1 /index.php/Record/show_record/stu_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\RecordController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\RecordController.class.php 第 11 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\RecordController.class.php 第 12 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\RecordController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0030s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `assess_record` WHERE `stu_id` = 2 AND `kind_id` = 1 ORDER BY a_time  [ RunTime:0.0000s ]
+SQL: select * from assess_record where kind_id ='1' and stu_id='2' order by a_time  Limit 0, 8 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant admin_name - assumed 'admin_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\RecordController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T15:46:09+08:00 ] 127.0.0.1 /index.php/Record/add_record/stu_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\RecordController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\RecordController.class.php 第 91 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\RecordController.class.php 第 92 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\RecordController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0030s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `brith` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2 ORDER BY a_id desc LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-17T15:46:11+08:00 ] 127.0.0.1 /index.php/Check/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant u_name - assumed 'u_name' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `assess_record` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 13 行.
+NOTIC: [8] Undefined index: stu_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 18 行.
+NOTIC: [8] Undefined index: kind_id D:\xampp\htdocs\children\children_sys\Admin\Controller\CheckController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `scale_kind` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `scale_kind` LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT `kind_name` FROM `scale_kind` WHERE `kind_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0020s ]
+SQL: SELECT `stu_name` FROM `stu_info` WHERE `stu_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item_values` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `assess_record` WHERE `kind_id` = 1 AND `stu_id` = 2  [ RunTime:0.0000s ]
+SQL: select scales.s_id, scales.s_title,scales.action from ((((item_values inner join items on item_values.item_id = items.item_id
+				        and item_values.items_values='E')
+				        inner join scales on items.s_id = scales.s_id) inner join modules_scales on scales.s_m_id =
+				        modules_scales.s_m_id) inner join scale_kind on modules_scales.kind_id = scale_kind.kind_id)
+				        where scale_kind.kind_id = '1' and item_values.a_id='1'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `suggest` [ RunTime:0.0020s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `action` FROM `suggest` WHERE ( sc_id=21 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

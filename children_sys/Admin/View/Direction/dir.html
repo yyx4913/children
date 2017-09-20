@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>教育跟踪表</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/checkPw.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/laydate/laydate.js"></script>
+<style type="text/css">
+   td label{ text-align:center;width:100%;}
+</style>
+</head>
+<body>
+	<div class="container" >
+		<br/><center><h1 class="text-info">&nbsp;自闭症儿童后续教育跟踪表</h1></center>
+		<form action="__CONTROLLER__/add_info" method="post">
+			<table border="1" width="100%" style="margin-top:-2.2em;">
+				<tr>
+					<td width="120"><label>姓　　名</label></td><td>&nbsp;&nbsp;&nbsp;{$res["stu_name"]}</td>
+					<td width="100"><label>性　　别</label></td><td width="130">&nbsp;&nbsp;&nbsp;{$res["sex"]}</td>
+					<td width="120"><label>出生日期</label></td><td>&nbsp;&nbsp;&nbsp;{$res["brith"]}</td>
+				</tr>
+				<tr>
+					<td ><label>毕业机构</label></td>
+					<td><input name="graduate" class="form-control" style="height:45px;"> </td>
+					<td ><label>毕业时间</label></td>
+					<td><input name="left_time" type="text" id="test" class="form-control" style="height:45px;">
+					<script>
+						laydate({
+						  elem: '#test',
+						  max: laydate.now(),
+						});
+					</script>
+					</td>
+					<td ><label>康复程度</label></td>
+					<td><input name="level" type="text" class="form-control" style="height:45px;"> </td>
+				</tr>	
+				<tr>
+					<td ><label>转入幼儿园名称</label></td>
+					<td colspan="3"><textarea name="school[]" rows="4" class="form-control" placeholder="根据实际情况三个选一个"></textarea></td>
+					<td ><label>入读时间</label></td>
+					<td><input name="time[]" type="text" class="form-control" id="test1" style="height:95px;">
+						<script>
+						laydate({
+						  elem: '#test1',
+						  max: laydate.now(),
+						});
+					</script>
+					</td>
+				</tr>
+				<tr>
+					<td ><label>转入特殊学校名称</label></td>
+					<td colspan="3"><textarea name="school[]" rows="4" class="form-control" placeholder="根据实际情况三个选一个"></textarea></td>
+					<td ><label>入读时间</label></td>
+					<td><input name="time[]" type="text" class="form-control" id="test2" style="height:95px;">
+						<script>
+						laydate({
+						  elem: '#test2',
+						  max: laydate.now(),
+						});
+					</script>
+					</td>
+				</tr>
+				<tr>
+					<td ><label>转入普通小学名称</label></td>
+					<td colspan="3"><textarea name="school[]" rows="4" class="form-control" placeholder="根据实际情况三个选一个"></textarea></td>
+					<td ><label>入读时间</label></td>
+					<td><input name="time[]" type="text" class="form-control" id="test3" style="height:95px;">
+						<script>
+						laydate({
+						  elem: '#test3',
+						  max: laydate.now(),
+						});
+					</script>
+					</td>
+				</tr>
+				<tr><td><label>被访问人</label></td><td colspan="2"><input name="person" type="text" class="form-control" style="height:45px;"></td>
+				<td><label>联系电话</label></td><td colspan="2"><input name="phone" type="number" class="form-control" style="height:45px;"></td></tr>
+				<tr><td><label>访问地点</label></td><td colspan="2"><input name="place" type="text" class="form-control" style="height:45px;"></td>
+				<td><label>访问方式</label></td><td colspan="2">
+				&nbsp;&nbsp;&nbsp;<input type="checkbox" name="way[]" value="面谈" >面谈&nbsp;&nbsp;&nbsp;<input type="checkbox" name="way[]" value="电话" >电话
+				&nbsp;&nbsp;&nbsp;<input type="checkbox" name="way[]" value="问卷" >问卷&nbsp;&nbsp;&nbsp;<input type="checkbox" name="way[]" value="家访" >家访</td></tr>
+				<tr><td><label>上课表现</label></td><td colspan="5"><textarea class="form-control" rows="5" name="action[]" placeholder="请输入信息"></textarea></td></tr>	
+				<tr><td><label>作业情况</label></td><td colspan="5"><textarea class="form-control" rows="5" name="action[]" placeholder="请输入信息"></textarea></td></tr>	
+				<tr><td><label>活动表现</label></td><td colspan="5"><textarea class="form-control" rows="5" name="action[]" placeholder="请输入信息"></textarea></td></tr>	
+				<tr><td><label>行为表现</label></td><td colspan="5"><textarea class="form-control" rows="5" name="action[]" placeholder="请输入信息"></textarea></td></tr>	
+				<tr><td><label>其他表现</label></td><td colspan="5"><textarea class="form-control" rows="5" name="action[]" placeholder="请输入信息"></textarea></td></tr>	
+				<tr><td><label>目前存在问题和困难</label></td><td colspan="5"><textarea class="form-control" rows="5" name="action[]" placeholder="请输入信息"></textarea></td></tr>	
+				<tr><td><label>辅导方法</label></td><td colspan="5"><textarea class="form-control" rows="5" name="action[]" placeholder="请输入信息"></textarea></td></tr>	
+				<tr><td><label>教师、同学提供的帮助</label></td><td colspan="5"><textarea class="form-control" rows="5" name="action[]" placeholder="请输入信息"></textarea></td></tr>
+				<tr><td><label>看法和建议</label></td><td colspan="5"><textarea class="form-control" rows="5" name="action[]" placeholder="请输入信息"></textarea></td></tr>			
+				<tr><td><label>访问人</label></td>
+				<td colspan="2"><input name="teller" class="form-control" style="height:45px;"></td>
+				<td><label>访问日期</label></td>
+				<td colspan="2"><input id="test4" name="tell" class="form-control" style="height:45px;">		
+					<script>
+						laydate({
+						  elem: '#test4',
+						  max: laydate.now(),
+						});
+					</script>
+				</td></tr>
+			</table><br/>
+			<center><input name="submit" type="submit" value="添&nbsp;加&nbsp;跟&nbsp;踪&nbsp;表" class="btn btn-info btn-lg " ></center>
+		</form>
+	</div><br/><br/>
+</body>
+</html>

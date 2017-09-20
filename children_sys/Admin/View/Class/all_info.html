@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>班级详细信息</title>
+<title>学生信息列表</title>
+	<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/checkPw.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/print.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.jqprint-0.3.js"></script>
+	<script language="javascript">
+	window.onload=function showtable(){
+	var tablename=document.getElementById("mytable");
+	var li=tablename.getElementsByTagName("tr");
+	for (var i=0;i<=li.length;i++){
+		if(i%2==0)
+		{
+			li[i].style.backgroundColor="#DBF0FA";
+		}else{
+			li[i].style.backgroundColor ="#FAF7F7";
+		}
+	}
+}
+</script>
+</head>
+<body style="background:#F0F2F5;">
+	<div class="container " id="ddd">
+		<center><h1 class="text-info">&nbsp;{$info[0].c_name}具体信息</h1></center>
+		<h4 class="text-info text-right">班主任：&nbsp;{$info[0].u_name}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;总共：&nbsp;{$sum[0]["count(stu_id)"]}&nbsp;人</h4>
+		<hr style=" height:2px;border:none;border-top:2px dotted #185598;" />
+		<table class="table-bordered" id="mytable" style="width:100%;text-align:center; margin-top:1em;">
+			<tr ><th>学号</th><th>学生姓名</th><th>性别</th>
+			<th class="noprint">操作</th></tr>
+			<foreach name="res" item="v" key="k">
+			<tr> 
+			  <td>{$v.stu_num}</td>
+			  <td>{$v.stu_name}</td><td>{$v.sex}</td>
+			  <td class="noprint"><a href='__MODULE__/Stu/see_stu/stu_id/{$v.stu_id}' title="查看学生详细信息"><div class="glyphicon glyphicon-search"></div></a>&nbsp;&nbsp; /
+			  &nbsp;&nbsp;
+			  <a href='__MODULE__/Stu/edit_stu/stu_id/{$v.stu_id}' title="编辑学生信息"><div class="glyphicon glyphicon-cog"></div></a>&nbsp;&nbsp; /
+			  &nbsp;&nbsp;<a onClick="return confirm('提示：您确定要删除该信息吗？')" 
+			  href='__MODULE__/Stu/del_stu1/stu_id/{$v.stu_id}&{$v.c_id}' title="删除该学生信息"><div class="glyphicon glyphicon-remove"></div></a></td>
+			</tr>
+			</foreach>
+			
+		</table>
+	
+	</div><center><h5>{$pagelist}</h5></center><br/>
+		<center><input type="button" onclick=" a()" value="打&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;印" class="btn btn-info btn-lg " ></center>
+		<script>  
+		function  a(){
+	        $("#ddd").jqprint();
+	    }
+		</script> 
+</body>
+</html>

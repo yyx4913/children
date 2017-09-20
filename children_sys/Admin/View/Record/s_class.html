@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>小分类页面</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/checkPw.js"></script>
+</head>
+<body style="background:#E3F5FC;">
+	<div class="container">
+		<br/><br/><br/><center><h1 class="text-info">&nbsp;增加已有的量表信息(二)</h1>
+		<h3 class="text-info">小分类信息</h3>
+		<form action="__SELF__" method="post" class="form-horizontal">
+		  <table>
+		  		<tr><td><label class="text-primary">隶属大分类:</label></td><td><select name="b_class" >{$tt}
+		  		<foreach name="res" item="v"><option value="{$v.kind_id}" select="selected">{$v.kind_name}</option></foreach></select></td></tr>
+				<tr><td><label class="text-primary">已有小分类: &nbsp;&nbsp;</label></td><td><select name="s_class" ><option value="">--请选择--</option>
+		  		<foreach name="res1" item="v1"><option value="{$v1.m_id}">{$v1.m_name}</option></foreach></select></td>
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class=" btn btn-info" onclick="add();" value="添加更多小分类" /></td></tr>
+		</table>
+				<div id="org"></div><br/>
+				<a href="__CONTROLLER__/b_class">上一步</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input name="submit" type="submit" value="下一步" class="btn btn-info btn-lg " >
+		</form></center>
+	</div>	
+</body>
+</html>

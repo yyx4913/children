@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>康复教育教案</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/checkPw.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/laydate/laydate.js"></script>
+	<script type="text/javascript">
+	window.onload =function()
+	{
+		var way = ["{$teach_way[0]}","{$teach_way[1]}","{$teach_way[2]}"];
+		var arr = document.getElementsByName("teach_way"); 
+		for(var i=0;i<arr.length;i++){
+			for(var j=0; j<way.length;j++){
+				if(arr[i].value==way[j])
+				{
+					arr[i].checked=true;
+				}
+			}
+		}
+	}
+	</script>
+<style type="text/css">
+   label{ text-align:center;width:100%;}
+   textarea{font-size:3em;}
+</style>
+</head>
+<body>
+	<div class="container" >
+		<br/><center><h1 class="text-info">&nbsp;康复教育教案</h1></center>
+		<h4 class="text-right text-info">学生：{$stu_name}</h4>
+		<form action="__CONTROLLER__/edit_plan" method="post">
+			<table border="1" width="100%" style="margin-top:-2.2em;">
+				<tr><td width="100" rowspan="2" ><label>课程领域/单元主题</label></td>
+					<td width="40%" rowspan="2" colspan="2">&nbsp;&nbsp;{$res[0].theme}</td>
+					<td width="60" rowspan="2"><label>执教教师</label></td><td>&nbsp;&nbsp;主教：
+					{$res[0].mteacher}</td></tr>
+					<tr><td>&nbsp;&nbsp;辅教：{$res[0].fteacher}</td></tr>
+					<tr><td><label>授课日期:</label></td>
+					<td colspan="2">&nbsp;&nbsp;{$res[0].time}
+					<td><label>授课形式:</label></td>
+					<td>
+						&nbsp;&nbsp;&nbsp;<input type="checkbox" name="teach_way" value="集体上课">&nbsp;集体上课
+						&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="teach_way" value="小组课">&nbsp;小组课
+						&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="teach_way" value="个别课">&nbsp;个别课
+					</td>
+					</tr>
+					<tr><td rowspan="2"><label>学生能力分析:</label></td>
+					<td>&nbsp;障碍类型与程度:</td><td>&nbsp;&nbsp;{$analyse[0]}</td>
+					<td >&nbsp;认知<br/>&nbsp;水平:</td><td>&nbsp;&nbsp;{$analyse[1]}</td></tr>
+					<tr><td width="13%">&nbsp;在本教学内容<br/>&nbsp;的现有能力状况:</td><td colspan="3">&nbsp;&nbsp;{$analyse[2]}</td></tr>
+					<tr><td rowspan="3"><label>教学目标:</label></td>
+					<td>&nbsp;知识目标:</td><td colspan="3">&nbsp;&nbsp;{$aim[0]}</td></tr>
+					<tr><td>&nbsp;能力目标:</td><td colspan="3">&nbsp;&nbsp;{$aim[1]}</td></tr>
+					<tr><td>&nbsp;情感目标:</td><td colspan="3">&nbsp;&nbsp;{$aim[2]}</td></tr>
+					<tr><td><label>教学准备:</label></td><td colspan="4">&nbsp;&nbsp;{$res[0]["ready"]}</td></tr>
+					<tr><td><label>教学重点:</label></td><td colspan="4">&nbsp;&nbsp;{$res[0]["importance"]}</td></tr>
+					<tr><td><label>教学难点:</label></td><td colspan="4">&nbsp;&nbsp;{$res[0]["difficult"]}</td></tr>
+					
+					<tr><td rowspan="6"><label>课程教学:</label></td>
+						<td>一、前期准备</td><td colspan="3">{$teach[0]}</td>
+					</tr>
+					<tr><td>二、教学导入</td><td colspan="3">&nbsp;&nbsp;{$teach[1]}</td></tr>
+					<tr><td>三、教学过程</td><td colspan="3">&nbsp;&nbsp;{$teach[2]}</td></tr>
+					<tr><td>四、巩固练习</td><td colspan="3">&nbsp;&nbsp;{$teach[3]}</td></tr>
+					<tr><td>五、课堂小结</td><td colspan="3">&nbsp;&nbsp;{$teach[4]}</td></tr>
+					<tr><td>六、延伸活动</td><td colspan="3">&nbsp;&nbsp;{$teach[5]}</td></tr>
+					
+					<tr><td rowspan="4"><label>教学评鉴:</label></td>
+						<td>&nbsp;学习态度</td><td colspan="3">&nbsp;&nbsp;{$appraise[0]}</td>
+					</tr>
+					<tr><td>&nbsp;学习效率</td><td colspan="3">&nbsp;&nbsp;{$appraise[1]}</td></tr>
+					<tr><td>&nbsp;存在问题</td><td colspan="3">&nbsp;&nbsp;{$appraise[2]}</td></tr>
+					<tr><td>&nbsp;教学建议</td><td colspan="3">&nbsp;&nbsp;{$appraise[3]}</td></tr>
+			</table><br/>
+			<center class="noprint"> <input name="submit" type="submit" value="修&nbsp;改&nbsp;方&nbsp;案" class="btn btn-info btn-lg " >
+			　　　　　　<input type="button" value="打&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;印" class="btn btn-primary btn-lg " onclick="window.print()"></center>
+		</form><br/><br/>
+	</div>
+</body>
+</html>

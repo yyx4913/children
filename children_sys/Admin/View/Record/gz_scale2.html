@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>量表信息页面</title>
+	<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/checkPw.js"></script>
+</head>
+<body style="background:#F0F2F5;">
+	<div class="container-fluid" style="margin-left:5em;margin-right:3em;"><br/><br/>
+		<div class="chance">
+			<ul>
+				<foreach name="res" item="v"><li><a href="__URL__/scale?kind_id={$v.kind_id}">{$v.kind_name}</a></li></foreach>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<div class="main">
+			<center><h1 class="text-info">儿童{$kind_name}评估表</h1></center>
+			<h4 class="text-right text-info">学生姓名：{$stu_name}&nbsp;&nbsp;</h4>
+			<form action="__URL__/scale" method="post">	
+			
+		    <table border="1" style="width:1000px;text-align:center;font-size:0.65em;">
+				<tr><th>代号</th><th colspan="2">评估范围</th><th>评估项目</th><th>评估记录(P、E、F或X)</th><th>参考年龄</th><th>备注</th></tr>
+				<foreach name="res1" item="v" key="k">
+				<tr><td>{$k+1}</td><td style="font-size:1.6em;">{$v.s_m_title}</td><td style="height:100%;"><table style="height:100%;width:100%;text-align:center;"><foreach name="res2[$k]" item="v1" key="k1">
+				<tr><td >{$v1.s_title}</td></tr></foreach></table></td><td>
+				<table style="width:100%"><foreach name="res3[$k]" item="v2" key="k2"><tr><td style="border-bottom:1px solid black;">{$v2.item_title}</td></tr></foreach></table></td>
+				<td><foreach name="res3[$k]" item="v2" key="k2"><table><tr><td>请选择：<select name="g[]"><option value="">--</option>
+				<option value="P">P</option><option value="E">E</option><option value="F">F</option><option value="X">X</option></select></td></tr></table></foreach></td>
+				<td><foreach name="res3[$k]" item="v2" key="k2"><table><tr><td>{$v2.can_age}</td></tr></table></foreach></td>
+				<td><foreach name="res3[$k]" item="v2" key="k2"><table><tr><td><input type="text" name="gz" style="line-height:0em;"></td></tr></table></foreach></td></tr>
+				</foreach>
+			</table><br/> 
+			<h4 class="text-danger">备注：<br/>
+				★——代表观察项目<br/>
+				▲ ——代表直接观察或是直接评估项目<br/>
+				项目号前面没有任何标注的为直接评估项目<br/>
+			</h4>
+			<center><input name="submit" type="submit" value="确认提交" class="btn btn-info btn-lg" ></center>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

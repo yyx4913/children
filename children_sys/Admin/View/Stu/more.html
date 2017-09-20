@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>添加家庭成员信息</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/me.css" rel="stylesheet">
+	<!-- 在引入bootstrap.min.js核心库之间加载jquery.min.js -->
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+</head>
+<body style="background:#E3F5FC;">
+	<div class="menu">
+	  	
+	  	<a href="__MODULE__/Record/add_record?stu_id={$stu_id}"><button class="btn btn-info ">添加评估记录</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  	<a href="__MODULE__/Eduplan/all_plan"><button class="btn btn-info ">查看教育计划</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  	<a href="__MODULE__/Direction/dir"><button class="btn btn-info ">康复转衔</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</div>
+	<div class="clear"></div><br/>
+	<div class="container">
+		<br/><br/><br/><center><h1 class="text-info">添加家庭其他成员信息</h1></center>
+		<form action="__URL__/more" method="post" class="form-horizontal">
+			<table>
+				<tr style="height:6em;"><td>亲属一：</td><td>与学生的关系：<input type="text" name="relation1" class="form-control"></td>
+					<td>姓名:<input type="hidden" name="stu_id" value="{$stu_id}"><input type="text" name="name1" class="form-control"></td>
+					<td>年龄:<input type="text" name="age1" class="form-control"></td>
+					<td>职业:<input type="text" name="job1" class="form-control"></td>
+					<td>教育程度:<select name="edu1" ><option value="">请选择</option>
+					<option value="小学及小学以下">&nbsp;&nbsp;小学及小学以下</option><option value="初中">&nbsp;&nbsp;初中</option>
+					<option value="高中">&nbsp;&nbsp;高中</option><option value="本科">&nbsp;&nbsp;本科</option><option value="硕士">&nbsp;&nbsp;硕士</option>
+					<option value="博士">&nbsp;&nbsp;博士</option></select></td></tr>
+					<tr style="height:6em;"><td>亲属二：</td><td>与学生的关系：<input type="text" name="relation2" class="form-control"></td>
+					<td>姓名:<input type="text" name="name2" class="form-control"></td>
+					<td>年龄:<input type="text" name="age2" class="form-control"></td>
+					<td>职业:<input type="text" name="job2" class="form-control"></td>
+					<td>教育程度:<select name="edu2" ><option value="">请选择</option>
+					<option value="小学及小学以下">&nbsp;&nbsp;小学及小学以下</option><option value="初中">&nbsp;&nbsp;初中</option>
+					<option value="高中">&nbsp;&nbsp;高中</option><option value="本科">&nbsp;&nbsp;本科</option><option value="硕士">&nbsp;&nbsp;硕士</option>
+					<option value="博士">&nbsp;&nbsp;博士</option></select></td></tr>
+				<tr style="height:6em;"><td>亲属三：</td><td>与学生的关系：<input type="text" name="relation3" class="form-control"></td>
+					<td>姓名:<input type="text" name="name3" class="form-control"></td>
+					<td>年龄:<input type="text" name="age3" class="form-control"></td>
+					<td>职业:<input type="text" name="job3" class="form-control"></td>
+					<td>教育程度:<select name="edu3" ><option value="">请选择</option>
+					<option value="小学及小学以下">&nbsp;&nbsp;小学及小学以下</option><option value="初中">&nbsp;&nbsp;初中</option>
+					<option value="高中">&nbsp;&nbsp;高中</option><option value="本科">&nbsp;&nbsp;本科</option><option value="硕士">&nbsp;&nbsp;硕士</option>
+					<option value="博士">&nbsp;&nbsp;博士</option></select></td></tr>
+			</table><br/>
+			<span class=" col-xs-offset-4" ><input name="submit" type="submit" value="确认提交" class="btn btn-info btn-lg "></span>
+				<span class=" col-xs-offset-1" ><input name="reset" type="reset" value="重置" class="btn btn-success btn-lg " ></span>
+	</form>
+	</div>
+</body>
+</html>
